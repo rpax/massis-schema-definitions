@@ -1,9 +1,9 @@
 {
 	"$schema": "http://json-schema.org/draft-04/schema#",
-	"id": "https://rpax.github.io/massis-schema-definitions/massis3/material/MTLMaterial.json",
-	"javaType": "com.massisframework.massis3.material.MTLMaterial",
+	"id": "https://rpax.github.io/massis-schema-definitions/massis3/material/GeometryMaterial.json",
+	"javaType": "com.massisframework.massis3.material.GeometryMaterial",
 	"title": "MTLMaterial",
-	"description": "defines a mtl material for a geometry",
+	"description": "defines a material for a geometry",
 	"type": "object",
 	"definitions": {
 		"ColorRGBA": {
