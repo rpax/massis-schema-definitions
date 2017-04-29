@@ -30,7 +30,7 @@
 			"type": "number"
 		},
 		"texture": {
-			"type": "string"
+			"$ref": "GeometryTexture.json"
 		},
 		"illum": {
 			"type": "number"

@@ -1,0 +1,34 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"id": "https://rpax.github.io/massis-schema-definitions/massis3/material/GeometryTexture.json",
+	"javaType": "com.massisframework.massis3.material.GeometryTexture",
+	"title": "GeometryTexture",
+	"description": "defines a texture for a geometry",
+	"type": "object",
+	"properties": {
+		"angle": {
+			"id": "/properties/texture/properties/angle",
+			"type": "integer"
+		},
+		"height": {
+			"id": "/properties/texture/properties/height",
+			"type": "integer"
+		},
+		"image": {
+			"id": "/properties/texture/properties/image",
+			"type": "string"
+		},
+		"leftToRightOriented": {
+			"id": "/properties/texture/properties/leftToRightOriented",
+			"type": "boolean"
+		},
+		"name": {
+			"id": "/properties/texture/properties/name",
+			"type": "string"
+		},
+		"width": {
+			"id": "/properties/texture/properties/width",
+			"type": "number"
+		}
+	}
+}
