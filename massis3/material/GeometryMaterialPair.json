@@ -1,0 +1,16 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"id": "https://rpax.github.io/massis-schema-definitions/massis3/material/GeometryMaterialPair.json",
+	"javaType": "com.massisframework.massis3.material.GeometryMaterialPair",
+	"title": "GeometryMaterialPair",
+	"description": "defines a geometry name - mtl material pair",
+	"type": "object",
+	"properties": {
+		"geometryName": {
+			"type": "string"
+		},
+		"geometryMaterial": {
+			"$ref": "MTLMaterial.json"
+		}
+	}
+}
