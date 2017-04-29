@@ -29,6 +29,9 @@
 		"d": {
 			"type": "number"
 		},
+		"texture": {
+			"type": "string"
+		},
 		"illum": {
 			"type": "number"
 		}
