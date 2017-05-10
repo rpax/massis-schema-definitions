@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-04/schema#",
-	"id": "https://rpax.github.io/massis-schema-definitions/massis3/material/MaterialTexture.json",
+	"id": "http://schemas.massisframework.com/massis3/material/MaterialTexture.json",
 	"javaType": "com.massisframework.massis3.material.MaterialTexture",
 	"title": "MaterialTexture",
 	"description": "defines geometry texture properties",

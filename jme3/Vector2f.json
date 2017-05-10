@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-04/schema#",
-	"id": "https://rpax.github.io/massis-schema-definitions/jme3/Vector2f.json",
+	"id": "http://schemas.massisframework.com/jme3/Vector2f.json",
 	"javaType": "com.jme3.math.Vector2f",
 	"title": "Vector2f",
 	"description": "Defines a Vector for a two float value tuple",
