@@ -7,7 +7,7 @@
 	"type": "object",
 	"properties": {
 		"center": {
-			"$ref": "https://rpax.github.io/massis-schema-definitions/jme3/Vector3f.json"
+			"$ref": "http://schemas.massisframework.com/jme3/Vector3f.json"
 		},
 		"xExtent": {
 			"type": "number"
