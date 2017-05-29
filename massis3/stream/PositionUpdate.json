@@ -7,6 +7,7 @@
     "type": "object",
     "properties": {
         "entity": {
+            "description": "Referenced entity",
             "$ref": "http://schemas.massisframework.com/simsilica/EntityId.json"
         },
         "position": {
