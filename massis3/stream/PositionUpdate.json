@@ -17,6 +17,7 @@
         "time": {
             "type": "integer",
             "description": "simulation time when the event was produced in ms",
+            "javaType":"java.lang.Long",
             "minimum": 0
         }
     }
