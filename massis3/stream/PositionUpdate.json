@@ -13,6 +13,11 @@
         "position": {
             "description": "Position of the entity",
             "$ref": "http://schemas.massisframework.com/jme3/Vector3f.json"
+        },
+        "time": {
+            "type": "integer",
+            "description": "simulation time when the event was produced in ms",
+            "minimum": 0
         }
     }
 }
