@@ -6,7 +6,6 @@
     "type": "array",
     "items": {
         "type": "integer",
-        "javaType": "java.lang.Long",
-        "minimum": 0
+        "javaType": "java.lang.Long"
     }
 }
