@@ -1,8 +1,8 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "id": "http://schemas.massisframework.com/massis3/basic/LongList.json",
+    "id": "http://schemas.massisframework.com/massis3/basic/JsonLongArray.json",
     "title": "List of long integers (64 bit)",
-    "description": "Defines a list of long integers",
+    "description": "Defines a list (array) of long integers",
     "type": "array",
     "items": {
         "type": "integer",
