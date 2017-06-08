@@ -1,7 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
     "id": "http://schemas.massisframework.com/massis3/server/http/config/Massis3HTTPServerConfig.json",
-    "javaType": "com.massisframework.massis3.server.http.config.Massis3HTTPServerConfig",
     "type": "object",
     "properties": {
         "host": {
