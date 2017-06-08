@@ -1,0 +1,31 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "http://schemas.massisframework.com/massis3/server/http/Massis3HTTPServerConfig.json",
+    "type": "object",
+    "properties": {
+        "host": {
+            "description": "the host name",
+            "type": "string",
+            "default": "localhost"
+        },
+        "port": {
+            "description": "the port where the app should be running",
+            "type": "integer",
+            "default": 8080
+        },
+        "controller-packages": {
+            "description": "Package list where the controllers ({@link com.github.aesteve.vertx.nubes.annotations.Controller}) are. Should contain all the packages where your controllers are located.",
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "templates": {
+            "description": "The expected values are: \"hbs\" for Handlebars, \"jade\" for Jade, \"templ\" for MVEL and \"thymeleaf\" for Thymeleaf (for the last one, you need to use .html file extension).",
+            "type": "array",
+            "default": [
+                "hbs"
+            ]
+        }
+    }
+}
